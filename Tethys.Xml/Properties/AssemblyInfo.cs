@@ -17,7 +17,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Tethys.Xml")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("XML support methods for C# projects")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Tethys")]
 [assembly: AssemblyProduct("Tethys.Xml")]
