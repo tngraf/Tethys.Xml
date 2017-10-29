@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>Tethys.Xml</id>
+    <version>1.0.0</version>
+    <title>Tethys.Xml</title>
+    <authors>Thomas Graf</authors>
+    <owners>Thomas Graf</owners>
+    <copyright>Copyright (C) 2017 T. Graf</copyright>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <projectUrl>https://github.com/tngraf/Tethys.Xml/</projectUrl>
+    <iconUrl>http://www.4wp7.de/tethys/tethyb32.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>XML support methods for C# projects.</description>
+    <releaseNotes></releaseNotes>
+    <language>en-US</language>
+    <tags>Tethys Xml</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\Tethys.Xml.dll" target="lib\net461" />
+    <file src="bin\Release\Tethys.Xml.xml" target="lib\net461" />
+    <file src="bin\Release\Tethys.Xml.pdb" target="lib\net461" />
+  </files>
+</package>
