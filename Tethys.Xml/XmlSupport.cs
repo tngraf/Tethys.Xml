@@ -27,15 +27,15 @@ namespace Tethys.Xml
         /// </summary>
         /// <param name="parent">The parent.</param>
         /// <param name="name">The name.</param>
-        /// <param name="throwExpection">if set to <c>true</c> throws an exception
+        /// <param name="throwException">if set to <c>true</c> throws an exception
         /// if the node was not found.</param>
         /// <returns>The requested attribute value.</returns>
-        public static string GetAttributeValue(XElement parent, string name, bool throwExpection = true)
+        public static string GetAttributeValue(XElement parent, string name, bool throwException = true)
         {
             var attribute = parent.Attributes().FirstOrDefault(e => e.Name.LocalName == name);
             if (attribute == null)
             {
-                if (throwExpection)
+                if (throwException)
                 {
                     throw new XmlException($"No attribute '{name}' found!");
                 } // if
@@ -51,14 +51,14 @@ namespace Tethys.Xml
         /// </summary>
         /// <param name="parent">The parent.</param>
         /// <param name="name">The name.</param>
-        /// <param name="throwExpection">if set to <c>true</c> throws an exception
+        /// <param name="throwException">if set to <c>true</c> throws an exception
         /// if the node was not found.</param>
         /// <returns>The requested sub node.</returns>
-        public static XElement GetFirstSubNode(XContainer parent, string name, bool throwExpection = true)
+        public static XElement GetFirstSubNode(XContainer parent, string name, bool throwException = true)
         {
             var nodes = parent.Elements().Where(e => e.Name.LocalName == name);
             var xnode = nodes.FirstOrDefault();
-            if ((xnode == null) && throwExpection)
+            if ((xnode == null) && throwException)
             {
                 throw new XmlException($"No node '{name}' found!");
             } // if
@@ -71,16 +71,16 @@ namespace Tethys.Xml
         /// </summary>
         /// <param name="parent">The parent.</param>
         /// <param name="name">The name.</param>
-        /// <param name="throwExpection">if set to <c>true</c> throws an exception
+        /// <param name="throwException">if set to <c>true</c> throws an exception
         /// if the node was not found.</param>
         /// <returns>The requested sub node value as string.</returns>
-        public static string GetFirstSubNodeValue(XContainer parent, string name, bool throwExpection = true)
+        public static string GetFirstSubNodeValue(XContainer parent, string name, bool throwException = true)
         {
             var nodes = parent.Elements().Where(e => e.Name.LocalName == name);
             var xnode = nodes.FirstOrDefault();
             if (xnode == null)
             {
-                if (throwExpection)
+                if (throwException)
                 {
                     throw new XmlException($"No node '{name}' found!");
                 } // if
@@ -91,5 +91,5 @@ namespace Tethys.Xml
             return xnode.Value;
         } // GetFirstSubNode()
         #endregion // PUBLIC METHODS
-    }
+    } // XmlSupport
 }
