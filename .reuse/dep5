@@ -1,0 +1,12 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Tethys.Xml
+Upstream-Contact: T. Graf
+Source: https://github.com/tngraf/tethys.xml
+
+Files: .gitignore README.md
+Copyright: 2017-2020 T. Graf
+License: Apache-2.0
+
+Files: Tethys.Xml/Tethys.Xml.csproj Tethys.Xml/Tethys.Xml.snk Tethys.Xml.sln Tethys.Xml/Tethys.Xml.nuspec
+Copyright: 2017-2020 T. Graf
+License: Apache-2.0

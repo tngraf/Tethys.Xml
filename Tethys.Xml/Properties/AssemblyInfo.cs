@@ -1,8 +1,11 @@
 ﻿// ---------------------------------------------------------------------------
 // <copyright file="AssemblyInfo.cs" company="Tethys">
-//   Copyright (C) 2017 T. Graf
+//   Copyright (C) 2017-2020 T. Graf
 // </copyright>
 //
+// SPDX-License-Identifier: Apache-2.0
+// SPDX-FileCopyrightText: 2017-2020 T. Graf
+// 
 // Licensed under the Apache License, Version 2.0.
 // Unless required by applicable law or agreed to in writing, 
 // software distributed under the License is distributed on an
