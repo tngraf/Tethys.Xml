@@ -1,15 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.8
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tethys.Xml", "Tethys.Xml\Tethys.Xml.csproj", "{912B3D03-FF02-40CF-96F2-B46FF417B917}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{0D2A7AB0-1CE4-4554-B043-BBE3CD021A51}"
 	ProjectSection(SolutionItems) = preProject
+		ChangeLog.md = ChangeLog.md
 		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tethys.Xml", "Tethys.Xml\Tethys.Xml.csproj", "{B89DD157-F9AE-492D-8130-438B572945D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +18,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{912B3D03-FF02-40CF-96F2-B46FF417B917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{912B3D03-FF02-40CF-96F2-B46FF417B917}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{912B3D03-FF02-40CF-96F2-B46FF417B917}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{912B3D03-FF02-40CF-96F2-B46FF417B917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B89DD157-F9AE-492D-8130-438B572945D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B89DD157-F9AE-492D-8130-438B572945D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B89DD157-F9AE-492D-8130-438B572945D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B89DD157-F9AE-492D-8130-438B572945D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

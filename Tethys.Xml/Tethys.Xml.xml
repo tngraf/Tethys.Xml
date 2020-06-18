@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Tethys.Xml</name>
+    </assembly>
+    <members>
+        <member name="T:Tethys.Xml.XmlSupport">
+            <summary>
+            XML support methods.
+            </summary>
+        </member>
+        <member name="M:Tethys.Xml.XmlSupport.GetAttributeValue(System.Xml.Linq.XElement,System.String,System.Boolean)">
+            <summary>
+            Gets the attribute value.
+            </summary>
+            <param name="parent">The parent.</param>
+            <param name="name">The name.</param>
+            <param name="throwException">if set to <c>true</c> throws an exception
+            if the node was not found.</param>
+            <returns>The requested attribute value.</returns>
+        </member>
+        <member name="M:Tethys.Xml.XmlSupport.GetFirstSubNode(System.Xml.Linq.XContainer,System.String,System.Boolean)">
+            <summary>
+            Gets the first sub node.
+            </summary>
+            <param name="parent">The parent.</param>
+            <param name="name">The name.</param>
+            <param name="throwException">if set to <c>true</c> throws an exception
+            if the node was not found.</param>
+            <returns>The requested sub node.</returns>
+        </member>
+        <member name="M:Tethys.Xml.XmlSupport.GetFirstSubNodeValue(System.Xml.Linq.XContainer,System.String,System.Boolean)">
+            <summary>
+            Gets the value of the first sub node with the given name.
+            </summary>
+            <param name="parent">The parent.</param>
+            <param name="name">The name.</param>
+            <param name="throwException">if set to <c>true</c> throws an exception
+            if the node was not found.</param>
+            <returns>The requested sub node value as string.</returns>
+        </member>
+    </members>
+</doc>
